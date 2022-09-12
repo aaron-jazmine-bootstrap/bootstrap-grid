@@ -63,8 +63,10 @@ body{
     height: 18px;
     width: 18px;
     color: black;
-    /*display: flex;*/
-    /*align-items: center;*/
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0.5em
 }
 
 #smredCircle{
@@ -84,10 +86,14 @@ body{
 }
 .small-badges {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
+    align-content: flex-end;
 }
 
 img {
     border: 9px solid #E6E6E6;
+}
+
+.featured-items-content{
+
 }
