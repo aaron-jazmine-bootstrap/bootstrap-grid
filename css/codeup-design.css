@@ -21,6 +21,7 @@ body{
     height: 7.4em;
     width: 7.4em;
     display: flex;
+    align-items: center;
 }
 
 #orangeCircle{
@@ -29,6 +30,7 @@ body{
     border-radius: 7.4em;
     height: 7.4em;
     width: 7.4em;
+    align-items: center;
     display: flex;
 }
 
@@ -39,13 +41,29 @@ body{
     height: 7.4em;
     width: 7.4em;
     display: flex;
+    align-items: center;
 }
 
 #blueCircle{
     background-color: #00ABA9;
-    border: 5px solid white;
+    border: 7px solid white;
     border-radius: 7.4em;
     height: 7.4em;
     width: 7.4em;
     display: flex;
+    align-items: center;
+    padding:
+
+}
+
+.myflexBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 40px;
+    row-gap: 20px;
+    padding: 0 60px;
+
+
 }
