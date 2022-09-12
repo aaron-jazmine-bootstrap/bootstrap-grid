@@ -11,49 +11,32 @@ h1, h3{
 }
 
 body{
-    background-color: #E6E6E6;
+    background-color: #F0F0F0;
+}
+
+#redCircle, #orangeCircle, #greenCircle, #blueCircle{
+    border: 5px solid white;
+    border-radius: 7.4em;
+    height: 7.4em;
+    width: 7.4em;
+    display: flex;
+    align-items: center;
 }
 
 #redCircle{
     background-color: #E6563B;
-    border: 5px solid white;
-    border-radius: 7.4em;
-    height: 7.4em;
-    width: 7.4em;
-    display: flex;
-    align-items: center;
 }
 
 #orangeCircle{
     background-color: #EB9D3A;
-    border: 5px solid white;
-    border-radius: 7.4em;
-    height: 7.4em;
-    width: 7.4em;
-    align-items: center;
-    display: flex;
 }
 
-#greenCircle{
+#greenCircle {
     background-color: #7CB06C;
-    border: 5px solid white;
-    border-radius: 7.4em;
-    height: 7.4em;
-    width: 7.4em;
-    display: flex;
-    align-items: center;
 }
 
-#blueCircle{
+#blueCircle {
     background-color: #00ABA9;
-    border: 7px solid white;
-    border-radius: 7.4em;
-    height: 7.4em;
-    width: 7.4em;
-    display: flex;
-    align-items: center;
-    padding:
-
 }
 
 .myflexBox{
@@ -63,7 +46,48 @@ body{
     flex-wrap: wrap;
     column-gap: 40px;
     row-gap: 20px;
-    padding: 0 60px;
+    padding: 0 70px;
+}
 
+.badge-circle{
+    font-family: Anton;
+    font-weight: bold;
+}
 
+.content {
+    font-family: Abel;
+}
+
+#smredCircle, #smorangeCircle, #smgreenCircle, #smblueCircle{
+    border-radius: 18px;
+    height: 18px;
+    width: 18px;
+    color: black;
+    /*display: flex;*/
+    /*align-items: center;*/
+}
+
+#smredCircle{
+    background-color: #E6563B;
+}
+
+#smorangeCircle{
+    background-color: #EB9D3A;
+}
+
+#smgreenCircle {
+    background-color: #7CB06C;
+}
+
+#smblueCircle {
+    background-color: #00ABA9;
+}
+.small-badges {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    border: 9px solid #E6E6E6;
 }
