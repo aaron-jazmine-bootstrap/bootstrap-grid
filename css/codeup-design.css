@@ -13,3 +13,39 @@ h1, h3{
 body{
     background-color: #E6E6E6;
 }
+
+#redCircle{
+    background-color: #E6563B;
+    border: 5px solid white;
+    border-radius: 7.4em;
+    height: 7.4em;
+    width: 7.4em;
+    display: flex;
+}
+
+#orangeCircle{
+    background-color: #EB9D3A;
+    border: 5px solid white;
+    border-radius: 7.4em;
+    height: 7.4em;
+    width: 7.4em;
+    display: flex;
+}
+
+#greenCircle{
+    background-color: #7CB06C;
+    border: 5px solid white;
+    border-radius: 7.4em;
+    height: 7.4em;
+    width: 7.4em;
+    display: flex;
+}
+
+#blueCircle{
+    background-color: #00ABA9;
+    border: 5px solid white;
+    border-radius: 7.4em;
+    height: 7.4em;
+    width: 7.4em;
+    display: flex;
+}
