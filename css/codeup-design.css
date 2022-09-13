@@ -1,3 +1,13 @@
+:root {
+    --design-icon: #E6563B;
+    --develop-icon: #EB9D3A;
+    --support-icon: #7CB06c;
+    --host-icon: #00ABA9;
+}
+
+
+
+
 .navbar-collapse {
     font-family: Abel;
 }
@@ -6,88 +16,96 @@ h1, h3{
     font-family: Anton;
 }
 
-#main-heading{
 
-}
 
 body{
     background-color: #F0F0F0;
 }
 
-#redCircle, #orangeCircle, #greenCircle, #blueCircle{
-    border: 5px solid white;
-    border-radius: 7.4em;
-    height: 7.4em;
-    width: 7.4em;
-    display: flex;
-    align-items: center;
-}
 
-#redCircle{
-    background-color: #E6563B;
-}
-
-#orangeCircle{
-    background-color: #EB9D3A;
-}
-
-#greenCircle {
-    background-color: #7CB06C;
-}
-
-#blueCircle {
-    background-color: #00ABA9;
-}
-
-.myflexBox{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    column-gap: 40px;
-    row-gap: 20px;
-    padding: 0 70px;
-}
-
-.badge-circle{
-    font-family: Anton;
-    font-weight: bold;
-}
 
 .content {
     font-family: Abel;
 }
 
-#smredCircle, #smorangeCircle, #smgreenCircle, #smblueCircle{
-    border-radius: 18px;
-    height: 18px;
-    width: 18px;
-    color: black;
-    /*display: flex;*/
-    /*align-items: center;*/
-}
 
-#smredCircle{
+
+
+.design-badge{
+    height: 108px;
+    width: 108px;
+    font-weight: bold;
+    border: solid white 6px;
+    border-radius: 50%;
+    font-size: 15px;
     background-color: #E6563B;
 }
 
-#smorangeCircle{
+.develop-badge{
+    height: 108px;
+    width: 108px;
+    font-weight: bold;
+    border: solid white 6px;
+    border-radius: 50%;
+    font-size: 15px;
     background-color: #EB9D3A;
+
 }
 
-#smgreenCircle {
+.support-badge{
+    height: 108px;
+    width: 108px;
+    font-weight: bold;
+    border: solid white 6px;
+    border-radius: 50%;
+    font-size: 15px;
     background-color: #7CB06C;
 }
 
-#smblueCircle {
+.host-badge{
+    height: 108px;
+    width: 108px;
+    font-weight: bold;
+    border: solid white 6px;
+    border-radius: 50%;
+    font-size: 15px;
     background-color: #00ABA9;
 }
-.small-badges {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+.circle{
+    color: black;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    text-align: center;
 }
 
-img {
-    border: 9px solid #E6E6E6;
+
+.badge-danger{
+    background-color: var(--design-icon)
 }
+
+.badge-warning{
+    background-color: var(--develop-icon)
+}
+
+.badge-success{
+    background-color: var(--support-icon)
+}
+
+.badge-info{
+    background: var(--host-icon)
+}
+
+.head-img,.iphone-img{
+    height: 50px;
+    width: 50px;
+    /*padding: 15px;*/
+    margin: 15px;
+}
+
+li{
+    list-style-type: none;
+}
+
+

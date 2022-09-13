@@ -3,18 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Codeup Design</title>
+
+    <!-- Bootstrap CSS -->
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/codeup-design.css">
-</head>
-<body>
-<!--Navbar below-->
-<style>
 
-</style>
+    <!-- Header & CSS link -->
+
+    <link rel="stylesheet" href="css/codeup-design.css">
+    <title>Codeup Design</title>
+</head>
+
+<body>
+<!-- Start Of Navigation Bar -->
+
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
             <img src="images/logo.png">
@@ -27,55 +34,142 @@
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#"><h4>code design</h4></a>
                     </li>
-                    <li class="nav-item ms-5">
-                        <a class="nav-link" aria-current="page" href="#">SERVICES</a>
+                    <li class="nav-item">
+                        <a class="nav-link my-1" aria-current="page" href="#">SERVICES</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">WORK</a>
+                        <a class="nav-link my-1" href="#">WORK</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">BLOG</a>
+                        <a class="nav-link my-1" href="#">BLOG</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">CONTACT</a>
+                        <a class="nav-link my-1" href="#">CONTACT</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-<!--Headers Below-->
+<!-- End of Navigation Bar -->
+
+<!--Visual design and Park City Utah text Begin -->
     <div class="text-center p-5">
         <h1 class="display-1">Visuals Design & Web Development</h1>
         <h3>From Park City, Utah</h3>
     </div>
-<!--Badges below-->
-    <div class="container mt-4">
-        <div class="myflexBox">
-            <div class="badge badge-circle ps-4"id="redCircle">DESIGN</div>
-            <div class="badge badge-circle ps-3"id="orangeCircle">DEVELOP</div>
-            <div class="badge badge-circle ps-3"id="greenCircle">SUPPORT</div>
-            <div class="badge badge-circle ps-4"id="blueCircle">HOST</div>
-        </div>
-    </div>
-<hr>
-    <section class="content">
-        <div class="content text-center mt-5">SELECTED WORK</div>
-    </section>
+<!-- Visual design and Park City Utah text Ends -->
 
-        <img src="images/apple-ipad.jpg">
-        <div class="featured-dots">
-            <div class="small-badges">
-                <div class="badge badge-circle ms-1 me-1"id="smredCircle">D</div>
-                <div class="badge badge-circle ms-1 me-1"id="smorangeCircle">D</div>
-                <div class="badge badge-circle ms-1 me-1"id="smgreenCircle">S</div>
-                <div class="badge badge-circle ms-1 me-1"id="smblueCircle">H</div>
+<!--Start Of Badges-->
+<div class="row">
+    <div class="col-12 col-sm-6 d-flex justify-content-center justify-content-md-end p-md-0">
+        <button type="button" class="btn btn-lg btn-primary design-badge m-1">DESIGN
+        </button>
+        <button type="button" class="btn btn-lg btn-primary develop-badge m-1">DEVELOP
+        </button>
+    </div>
+    <div class="col-12 col-sm-6 d-flex justify-content-center justify-content-md-start p-md-0">
+        <button type="button" class="btn btn-lg btn-primary support-badge m-1">SUPPORT
+        </button>
+        <button type="button" class="btn btn-lg btn-primary host-badge m-1">HOST
+        </button>
+    </div>
+    <div class="container">
+        <hr class="col-sm-12 d-none d-sm-block">
+    </div>
+</div>
+
+<!-- Images Begin Here -->
+<div class="text-center p-5">
+<!--        <div class="col-12 col-md-4 d-flex justify-content-md-center justify-content-lg-start">-->
+<!--            <p class="">SELECTED WORK</p>-->
+<!--            </div>-->
+            <div class="col-12 col-md-4 d-flex justify-content-md-around justify-content-center">
+                <figure class="figure m-2">
+                    <img src="images/apple-ipad.jpg" class="figure-img img-fluid rounded img-thumbnail" style="width: 300px; height: 200px;" alt="placeholder image iPad.">
+                        <figcaption class="figure-caption">
+                            <div class="d-flex bd-highlight mb-3">
+                                <div class="mr-auto p-2">FEATURED PROJECTS</div>
+
+                                    <span class="p-2 bd-highlight">
+                                        <span class="badge badge-circle badge-danger circle">D</span>
+                                        <span class="badge badge-circle badge-warning circle">D</span>
+                                        <span class="badge badge-circle badge-success circle">S</span>
+                                        <span class="badge badge-circle badge-info circle">H</span>
+                                    </span>
+                            </div>
+                        </figcaption>
+                </figure>
+
             </div>
-        <div class="featured-project">FEATURED PROJECT</div>
+
+        <div class="col-12 col-md-4 d-flex justify-content-md-around justify-content-center">
+            <figure class="figure m-2">
+                <img src="images/macbook.jpg" class="figure-img img-fluid rounded img-thumbnail" style="width: 300px; height: 200px;"
+                     alt="placeholder image of a MacBook.">
+                <figcaption class="figure-caption">
+                    <div class="d-flex bd-highlight mb-3">
+                        <div class="mr-auto p-2 bd-highlight">FEATURED PROJECTS</div>
+
+                        <span class="p-2 bd-highlight">
+                            <span class="badge badge-circle badge-danger circle">D</span>
+                            <span class="badge badge-circle badge-warning circle">D</span>
+                            <span class="badge badge-circle badge-success circle">S</span>
+                            <span class="badge badge-circle badge-info circle">H</span>
+                        </span>
+                    </div>
+                </figcaption>
+            </figure>
         </div>
 
+<!--        <div class="col-12 col-md-4 d-flex justify-content-md-around">-->
+<!--            <ul>-->
+<!--                <li>-->
+<!--                    <img class="iphone-img mr-3" src="images/mobile-phone.jpg" alt="placeholder image iPhone">-->
+<!--                </li>-->
+<!--                <li>-->
+<!--                    <img class="head-img" mr-3 src="images/head.jpg" alt="placeholder image Head">-->
+                </li>
+            </ul>
+
+        </div>
+    </div>
+<div class="row d-flex ">
+    <div class="col-12 col-md-4 d-flex justify-content-md-around justify-content-center">
+        <figure class="figure m-2">
+            <img src="images/man.jpg" class="figure-img img-fluid rounded img-thumbnail" style="width: 300px; height: 200px;"
+                 alt="placeholder image of Man">
+            <figcaption class="figure-caption">
+                <div class="d-flex bd-highlight mb-3">
+                    <div class="mr-auto p-2 bd-highlight">FEATURED PROJECTS</div>
+
+                    <span class="p-2 bd-highlight">
+                            <span class="badge badge-circle badge-danger circle">D</span>
+                            <span class="badge badge-circle badge-warning circle">D</span>
+                            <span class="badge badge-circle badge-success circle">S</span>
+                            <span class="badge badge-circle badge-info circle">H</span>
+                    </span>
+                </div>
+            </figcaption>
+        </figure>
     </div>
 
 
+    <div class="col-12 col-md-4 d-flex justify-content-md-around justify-content-center">
+        <figure class="figure m-2">
+            <img src="images/security.jpg" class="figure-img img-fluid rounded img-thumbnail" style="width: 300px; height: 200px;"
+                 alt="A placeholder image of a Security Icon.">
+            <figcaption class="figure-caption">
+                <div class="d-flex bd-highlight mb-3">
+                    <div class="mr-auto p-2 bd-highlight">FEATURED PROJECTS</div>
+                    <span class="p-2 bd-highlight">
+                            <span class="badge badge-circle badge-danger circle">D</span>
+                            <span class="badge badge-circle badge-warning circle">D</span>
+                            <span class="badge badge-circle badge-success circle">S</span>
+                            <span class="badge badge-circle badge-info circle">H</span>
+                    </span>
+
+
+<!-- Bootstrap JS Script Below -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 </html>
