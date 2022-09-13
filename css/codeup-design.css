@@ -3,6 +3,12 @@
     --develop-icon: #EB9D3A;
     --support-icon: #7CB06c;
     --host-icon: #00ABA9;
+    --image-border: #E6E6E6;
+}
+
+.figure{
+    border-style: solid;
+    border-color: var(--image-border)
 }
 
 
