@@ -6,15 +6,6 @@
     --image-border: #E6E6E6;
 }
 
-.figure-img {
-    border-color: var(--image-border);
-    border-style: solid;
-}
-
-.navbar-collapse, h5{
-    font-family: Abel;
-}
-
 h1, h2{
     font-family: Anton;
 }
@@ -23,11 +14,18 @@ body{
     background-color: #F0F0F0;
 }
 
-
 .content {
     font-family: Abel;
 }
 
+.figure-img {
+    border-color: var(--image-border);
+    border-style: solid;
+}
+
+.navbar-collapse, h5{
+    font-family: Abel;
+}
 
 .design-badge{
     height: 108px;
@@ -72,9 +70,6 @@ body{
     background-color: #00ABA9;
     font-family: Anton;
 }
-button {
-    padding: 15px;
-}
 
 .circle{
     padding: 5px;
@@ -112,6 +107,10 @@ button {
 
 .badge-info{
     background: var(--host-icon)
+}
+
+button {
+    padding: 15px;
 }
 
 .head-img,.iphone-img, .ipad-img {
