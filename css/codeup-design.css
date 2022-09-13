@@ -6,7 +6,7 @@
     --image-border: #E6E6E6;
 }
 
-.figure-img{
+.figure-img {
     border-color: var(--image-border);
     border-style: solid;
 }
