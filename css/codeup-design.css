@@ -11,30 +11,22 @@
     border-style: solid;
 }
 
-
-
-
 .navbar-collapse, h5{
     font-family: Abel;
 }
 
-h1, h3{
+h1, h2{
     font-family: Anton;
 }
-
-
 
 body{
     background-color: #F0F0F0;
 }
 
 
-
 .content {
     font-family: Abel;
 }
-
-
 
 
 .design-badge{
@@ -45,6 +37,7 @@ body{
     border-radius: 50%;
     font-size: 15px;
     background-color: #E6563B;
+    font-family: Anton;
 }
 
 .develop-badge{
@@ -55,7 +48,7 @@ body{
     border-radius: 50%;
     font-size: 15px;
     background-color: #EB9D3A;
-
+    font-family: Anton;
 }
 
 .support-badge{
@@ -66,6 +59,7 @@ body{
     border-radius: 50%;
     font-size: 15px;
     background-color: #7CB06C;
+    font-family: Anton;
 }
 
 .host-badge{
@@ -76,6 +70,7 @@ body{
     border-radius: 50%;
     font-size: 15px;
     background-color: #00ABA9;
+    font-family: Anton;
 }
 
 .circle{
@@ -84,8 +79,8 @@ body{
     height: 20px;
     width: 20px;
     text-align: center;
+    font-family: Anton;
 }
-
 
 .badge-danger{
     background-color: var(--design-icon)
@@ -115,11 +110,18 @@ body{
     background: var(--host-icon)
 }
 
-.head-img,.iphone-img{
-    height: 50px;
-    width: 50px;
-    /*padding: 15px;*/
-    margin: 15px;
+.head-img,.iphone-img, .ipad-img {
+    height: 70px;
+    width: 70px;
+    padding: 3px;
+    margin: 5px;
+}
+
+.pic-title {
+    display: flex;
+    padding: 19px;
+    margin: 10px;
+
 }
 
 
@@ -136,6 +138,7 @@ li{
     display: flex;
     justify-content: flex-end;
     align-content: flex-end;
+
 }
 
 
