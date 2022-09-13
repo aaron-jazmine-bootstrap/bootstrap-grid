@@ -6,9 +6,9 @@
     --image-border: #E6E6E6;
 }
 
-.figure{
+.figure-img{
+    border-color: var(--image-border);
     border-style: solid;
-    border-color: var(--image-border)
 }
 
 
@@ -91,10 +91,10 @@ body{
     background-color: var(--design-icon)
 }
 
-<<<<<<< HEAD
-.badge-warning{
+
+.badge-warning {
     background-color: var(--develop-icon)
-=======
+}
 #smredCircle, #smorangeCircle, #smgreenCircle, #smblueCircle{
     border-radius: 18px;
     height: 18px;
@@ -104,7 +104,7 @@ body{
     align-items: center;
     justify-content: flex-end;
     padding: 0.5em
->>>>>>> 1da8767c0f106cb37bf5e2569e77960c6d263ec9
+
 }
 
 .badge-success{
@@ -122,13 +122,13 @@ body{
     margin: 15px;
 }
 
-<<<<<<< HEAD
+
 li{
     list-style-type: none;
 }
 
 
-=======
+
 #smblueCircle {
     background-color: #00ABA9;
 }
@@ -138,11 +138,4 @@ li{
     align-content: flex-end;
 }
 
-img {
-    border: 9px solid #E6E6E6;
-}
 
-.featured-items-content{
-
-}
->>>>>>> 1da8767c0f106cb37bf5e2569e77960c6d263ec9
